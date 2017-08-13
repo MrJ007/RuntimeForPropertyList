@@ -12,7 +12,7 @@
 		0479260F1ED5BF000045BD78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479260D1ED5BF000045BD78 /* Main.storyboard */; };
 		047926111ED5BF000045BD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047926101ED5BF000045BD78 /* Assets.xcassets */; };
 		047926141ED5BF000045BD78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047926121ED5BF000045BD78 /* LaunchScreen.storyboard */; };
-		0479261C1ED5BF140045BD78 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479261B1ED5BF140045BD78 /* Person.swift */; };
+		0484B9261F4050950004CB26 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484B9251F4050950004CB26 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		047926101ED5BF000045BD78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047926131ED5BF000045BD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047926151ED5BF000045BD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0479261B1ED5BF140045BD78 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0484B9251F4050950004CB26 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,23 @@
 		047926081ED5BF000045BD78 /* Swift运行时加载属性列表 */ = {
 			isa = PBXGroup;
 			children = (
+				0484B9241F4050950004CB26 /* 我的框架 */,
 				047926091ED5BF000045BD78 /* AppDelegate.swift */,
 				0479260B1ED5BF000045BD78 /* ViewController.swift */,
-				0479261B1ED5BF140045BD78 /* Person.swift */,
 				0479260D1ED5BF000045BD78 /* Main.storyboard */,
 				047926101ED5BF000045BD78 /* Assets.xcassets */,
 				047926121ED5BF000045BD78 /* LaunchScreen.storyboard */,
 				047926151ED5BF000045BD78 /* Info.plist */,
 			);
 			path = "Swift运行时加载属性列表";
+			sourceTree = "<group>";
+		};
+		0484B9241F4050950004CB26 /* 我的框架 */ = {
+			isa = PBXGroup;
+			children = (
+				0484B9251F4050950004CB26 /* Person.swift */,
+			);
+			path = "我的框架";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0479261C1ED5BF140045BD78 /* Person.swift in Sources */,
+				0484B9261F4050950004CB26 /* Person.swift in Sources */,
 				0479260C1ED5BF000045BD78 /* ViewController.swift in Sources */,
 				0479260A1ED5BF000045BD78 /* AppDelegate.swift in Sources */,
 			);
@@ -303,6 +311,7 @@
 				0479261A1ED5BF000045BD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
